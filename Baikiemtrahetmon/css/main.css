@@ -1,0 +1,57 @@
+/* body {background: purple;
+} */
+body{
+    background-color: #3498DB;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 170%;
+}
+#newProfile {width: 40%;
+    height:600px;
+    margin: 30px auto;
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+background: #ffffff;
+     }
+
+input, #sendDataButton, #box {
+    border: 1.5px solid rgb(202, 202, 202);
+    border-radius: 2px;
+}
+#firstName, #lastName, #Phone, #address{
+    margin: 10px;
+    text-align: left;
+    padding-left: 10px;
+    width: 80%;
+    height: 40px;
+    border-radius: 6px;
+}
+#address{
+    height: 120px;
+}
+#firstName{
+    margin-top: 30px;
+}
+.form-group{
+    font-size: 13px;
+    color:rgb(138, 138, 138);
+}
+.form-group2 {
+    text-align: left;
+    font-size: 13px;
+    color:rgb(138, 138, 138);
+    padding-left: 30px;
+}
+.profile-button, .btn-btn-warning{
+    float:left;
+    margin: 20px 0 0 32px;
+    padding: 12px 30px 12px 20px;
+    width: 25%;
+    background-color: #3498DB;
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
+.profile-button{
+    margin-top: 50px;
+}
